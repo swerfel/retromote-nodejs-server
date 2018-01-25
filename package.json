@@ -1,0 +1,23 @@
+{
+  "name": "retromote-server",
+  "version": "0.0.1",
+  "description": "Server instance for Retromote Clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "retro",
+    "retrospective",
+    "remote",
+    "retromote"
+  ],
+  "author": "Sergej Werfel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "4.16.2",
+    "socket.io": "2.0.4"
+  }
+}
